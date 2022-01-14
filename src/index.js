@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import GerenciadorTarefas from './Gerenciador-tarefas';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  //<React.StrictMode>  removido para os links entre paginas funcionarem
+  // </React.StrictMode>,
+    <GerenciadorTarefas />,
   document.getElementById('root')
 );
 
